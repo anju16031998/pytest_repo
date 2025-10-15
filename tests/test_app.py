@@ -19,7 +19,7 @@ class TestApp:
         res = divide_by_two(numbers[1])
         assert res == numbers[0]
     def test_divide_by_two_studentid(self):
-        input_value = 171           # 178 ÷ 2 = 89
+        input_value = 178           # 178 ÷ 2 = 89
         expected_output = 89        # last two digits of your student ID
         result = divide_by_two(input_value)
         assert result == expected_output
